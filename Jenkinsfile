@@ -29,7 +29,7 @@ stage ('Notification'){
 	emailext(
 		subject: "job complete",
 		body: "jenkins pipline job for maben build ot completed !!!",
-		recipients: "mavric1177@gmail.com"
+		to: "mavric1177@gmail.com"
 		)
 	}
 
